@@ -1,0 +1,93 @@
+/* Professional background palette */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f3, #d9e2ec);
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #1f2933;
+    padding: 20px 40px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-left img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.header-text p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #cbd5e1;
+    font-size: 16px;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    background: #ffffff;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #2563eb; /* Professional blue */
+    margin-bottom: 12px;
+}
+
+/* Skills */
+.skills {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #f1f5f9;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* Projects */
+.projects {
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1f2933;
+    color: #ffffff;
+    padding: 15px;
+}
